@@ -6,14 +6,33 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3401A3C22CF2149B00C8ACFF /* MMLanScan in Frameworks */ = {isa = PBXBuildFile; productRef = 3401A3C12CF2149B00C8ACFF /* MMLanScan */; };
+		3401A3D62CF274CB00C8ACFF /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3401A3D52CF274C600C8ACFF /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		340141852CF1DF1C002D26C7 /* Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Camera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		340141852CF1DF1C002D26C7 /* Cameramera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cameramera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3401A3D52CF274C600C8ACFF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3401A3D42CF264C400C8ACFF /* Exceptions for "Cameramera" folder in "Cameramera" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 340141842CF1DF1C002D26C7 /* Cameramera */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		340141872CF1DF1C002D26C7 /* Camera */ = {
+		340141872CF1DF1C002D26C7 /* Cameramera */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Camera;
+			exceptions = (
+				3401A3D42CF264C400C8ACFF /* Exceptions for "Cameramera" folder in "Cameramera" target */,
+			);
+			path = Cameramera;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -23,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3401A3C22CF2149B00C8ACFF /* MMLanScan in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,7 +52,8 @@
 		3401417C2CF1DF1C002D26C7 = {
 			isa = PBXGroup;
 			children = (
-				340141872CF1DF1C002D26C7 /* Camera */,
+				3401A3D52CF274C600C8ACFF /* README.md */,
+				340141872CF1DF1C002D26C7 /* Cameramera */,
 				340141862CF1DF1C002D26C7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +61,7 @@
 		340141862CF1DF1C002D26C7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				340141852CF1DF1C002D26C7 /* Camera.app */,
+				340141852CF1DF1C002D26C7 /* Cameramera.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +69,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		340141842CF1DF1C002D26C7 /* Camera */ = {
+		340141842CF1DF1C002D26C7 /* Cameramera */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 340141982CF1DF1D002D26C7 /* Build configuration list for PBXNativeTarget "Camera" */;
+			buildConfigurationList = 340141982CF1DF1D002D26C7 /* Build configuration list for PBXNativeTarget "Cameramera" */;
 			buildPhases = (
 				340141812CF1DF1C002D26C7 /* Sources */,
 				340141822CF1DF1C002D26C7 /* Frameworks */,
@@ -61,13 +82,14 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				340141872CF1DF1C002D26C7 /* Camera */,
+				340141872CF1DF1C002D26C7 /* Cameramera */,
 			);
-			name = Camera;
+			name = Cameramera;
 			packageProductDependencies = (
+				3401A3C12CF2149B00C8ACFF /* MMLanScan */,
 			);
 			productName = Camera;
-			productReference = 340141852CF1DF1C002D26C7 /* Camera.app */;
+			productReference = 340141852CF1DF1C002D26C7 /* Cameramera.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -82,10 +104,11 @@
 				TargetAttributes = {
 					340141842CF1DF1C002D26C7 = {
 						CreatedOnToolsVersion = 16.0;
+						LastSwiftMigration = 1600;
 					};
 				};
 			};
-			buildConfigurationList = 340141802CF1DF1C002D26C7 /* Build configuration list for PBXProject "Camera" */;
+			buildConfigurationList = 340141802CF1DF1C002D26C7 /* Build configuration list for PBXProject "Cameramera" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -94,12 +117,15 @@
 			);
 			mainGroup = 3401417C2CF1DF1C002D26C7;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3401A3C02CF2149B00C8ACFF /* XCRemoteSwiftPackageReference "MMLanScan" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 340141862CF1DF1C002D26C7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				340141842CF1DF1C002D26C7 /* Camera */,
+				340141842CF1DF1C002D26C7 /* Cameramera */,
 			);
 		};
 /* End PBXProject section */
@@ -119,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3401A3D62CF274CB00C8ACFF /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,12 +276,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Camera/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Cameramera/Preview Content\"";
 				DEVELOPMENT_TEAM = QDH78FDX85;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cameramera/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Use your microphone to make the shader react to your environment.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -265,9 +295,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Antoine-Bollengier.Camera";
+				PRODUCT_BUNDLE_IDENTIFIER = "Antoine-Bollengier.Cameramera";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -278,12 +309,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Camera/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Cameramera/Preview Content\"";
 				DEVELOPMENT_TEAM = QDH78FDX85;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cameramera/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Use your microphone to make the shader react to your environment.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -294,7 +328,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Antoine-Bollengier.Camera";
+				PRODUCT_BUNDLE_IDENTIFIER = "Antoine-Bollengier.Cameramera";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -305,7 +339,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		340141802CF1DF1C002D26C7 /* Build configuration list for PBXProject "Camera" */ = {
+		340141802CF1DF1C002D26C7 /* Build configuration list for PBXProject "Cameramera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				340141962CF1DF1D002D26C7 /* Debug */,
@@ -314,7 +348,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		340141982CF1DF1D002D26C7 /* Build configuration list for PBXNativeTarget "Camera" */ = {
+		340141982CF1DF1D002D26C7 /* Build configuration list for PBXNativeTarget "Cameramera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				340141992CF1DF1D002D26C7 /* Debug */,
@@ -324,6 +358,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3401A3C02CF2149B00C8ACFF /* XCRemoteSwiftPackageReference "MMLanScan" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/b5i/MMLanScan";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3401A3C12CF2149B00C8ACFF /* MMLanScan */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3401A3C02CF2149B00C8ACFF /* XCRemoteSwiftPackageReference "MMLanScan" */;
+			productName = MMLanScan;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3401417D2CF1DF1C002D26C7 /* Project object */;
 }

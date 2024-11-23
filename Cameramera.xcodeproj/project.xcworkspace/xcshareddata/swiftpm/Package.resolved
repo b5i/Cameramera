@@ -1,0 +1,15 @@
+{
+  "originHash" : "9bc8e3b18d136121f4b5db5c6562f3824fadc791e88b84799e09c1cc98038533",
+  "pins" : [
+    {
+      "identity" : "mmlanscan",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/b5i/MMLanScan",
+      "state" : {
+        "branch" : "master",
+        "revision" : "0ed541d3d19b871b41f8f84e891db0d7557c5186"
+      }
+    }
+  ],
+  "version" : 3
+}
